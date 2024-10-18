@@ -1,20 +1,23 @@
-const showb = document.getElementById('Show') as HTMLButtonElement;
-// const hide = document.getElementById('Hide') as HTMLButtonElement;
+const hideB = document.getElementById('Hide') as HTMLButtonElement;
+const showB = document.getElementById('Show') as HTMLButtonElement;
 const skills = document.getElementById('Skills') as HTMLElement;
 
-showb.addEventListener('click', () => {
-    if (skills.style.display === 'none') {
-        skills.style.display = 'block';
-        
-    } else {
-        skills.style.display = 'none';
-    }
+
+
+skills.style.display = 'none';
+
+showB.addEventListener('click', ()=> {
+    
+    skills.style.display = 'block';
+    // } else {
+    //     skill.style.display = 'none';
+    // }
 });
 
-// hide.addEventListener('click', () => {
-//     if (skill.style.display === 'block') {
-//         skill.style.display = 'none';
-//     } else {
-//         skill.style.display = 'block'
-//     }
-// });
+hideB.addEventListener('click', () => {
+    
+    skills.style.display = 'none';
+    // } else {
+    //     skill.style.display = 'block'
+    // }
+});
