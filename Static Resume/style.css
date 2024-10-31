@@ -1,0 +1,146 @@
+ body{
+    /* height: 100%; */
+   /* width: 60%; */
+   background-color: #06f506;
+} 
+.container{
+    border-radius: 50px;
+    width: 60%;
+    margin:1em 0em 0em 19em;
+    height: 665px;
+}
+
+
+/* Left-side-potion */
+
+.Left-side{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(133, 76, 76);
+    position: relative;   
+
+}
+
+.img1{
+    width: 50%;
+    margin: 25px 0px 0px 60px;
+    border-radius: 50%;
+    
+}
+.head1{
+    color: #ffffff;
+    font-size: 20px;
+    font-style: italic;
+    font-weight:bold;
+    margin: 5px 0px 0px 15px;
+    /* border-bottom: 1px solid black; */
+}
+
+.head2{
+    color: #ffffff;
+    font-size: 15px;
+    font-style: italic;
+    font-weight:bold;
+    margin: 5px 0px 0px 60px;
+}
+
+
+.img2{
+    width: 30px;
+    /* margin-right: 80px; */
+    /* border-radius: 50%; */
+}
+
+.list{
+    list-style: none;
+    padding: 5px 0px 0px 10px;
+    /* margin-left: 20px; */
+    
+}
+
+.list li{
+    padding: 0px 0px 8px 8px;
+    display: flex;
+    align-items: center;
+}
+ 
+.div1 p{
+
+    padding:0px 0px 0px 10px;
+}
+
+
+
+    /* Right-side-potion */
+
+.Right-side{
+
+    width: 35%;
+    height: 665px;
+    position: absolute;
+    top: 15px;
+    right: 20.3em;
+    background-color: #cdc4c4;
+    border-left: 5px solid black;
+}
+
+.AllHeads{
+   
+   
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 50px;
+    box-shadow: 0 0 15px #06f506;
+    /* margin-top: 5%; */
+    margin-bottom: 5%;
+    background-color: lightgray;
+}
+
+.para{
+    padding: 0px 18px 0px 18px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: capitalize;
+    /* font-family: Arial; */
+    
+}
+
+.list1{
+    
+    padding-left: 2%;
+}
+
+.list1 li {
+   display: flex;
+   align-items: center;
+   margin-left: 0px;
+   /* border: 1px solid black; */
+}
+
+#Show{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #2f0656;
+    color: #ffffff;
+    
+}
+
+#Hide{
+    margin: 0px 0px 20px 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #2f0656;
+    color: #ffffff;
+
+}
+#Hide:hover{
+    background-color: #ffffff;
+    
+}
+
+@media screen and (min-width:480px){
+    
+}
