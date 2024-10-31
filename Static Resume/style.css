@@ -59,7 +59,7 @@
 }
 
 .list li{
-    padding: 0px 0px 8px 8px;
+    padding: 0px 0px 8px 0px;
     display: flex;
     align-items: center;
 }
@@ -141,6 +141,31 @@
     
 }
 
-@media screen and (min-width:480px){
+@media screen and (max-width:1306px){
     
+.Left-side{
+    min-width: 46%;
+    height: 175vh;
+    /* float: left; */
+    position: absolute;
+    left: 3px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+.Right-side{
+    min-width: 52%;
+    height: 175vh;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    
+    /* flex-direction: c; */
+   position: absolute;
+   right: 2px;
+}
+.list li {
+    margin-left: 0px;
+}
+.para {
+    /* height: 50vh; */
+}
 }
