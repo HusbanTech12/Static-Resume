@@ -14,18 +14,21 @@ body{
     border-radius: 5px;
     
 }
+
 .Left-side{
     width: 30%;
     padding: 20px;
     background-color: rgb(133, 76, 76);
     color: #ffffff;
 }
+
 .img1{
     width: 50%;
     margin: 25px auto;
     border-radius: 50%;
     display: block;
 }
+
 
 .head1 {
     font-size: 20px;
@@ -87,12 +90,53 @@ body{
     text-transform: capitalize;
 }
 
+#Show{
+    margin: 50px 0px 0px 25px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:  #1142e4;
+    
+}
+
+#Hide{
+    margin: 50px 0px 0px 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #1142e4;
+
+    
+}
+
+/* Hower */
+#Show:hover{
+    /* background-color: #ffffff; */
+    cursor: pointer;
+}
+
+#Hide:hover{
+    /* background-color: #ffffff; */
+    cursor: pointer;
+}
+
+/* Active */
+
+#Show:active{
+    background-color:#ffffff ;
+}
+
+#Hide:active{
+    background-color:#ffffff ;
+}
+
+
+
 /* Responsive Design */
 
 @media screen and (m-width:1306px){
+
     .container{
-        flex-direction: column;
-        width: 100%; 
+         flex-direction: column;
+         width: 100%; 
          max-width: 100%;
     }
 
